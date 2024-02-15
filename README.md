@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Cryptocurrency Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a cryptocurrency tracker built with React JS and the CoinGecko API. It allows you to monitor real-time prices of your favorite cryptocurrencies and visualize their historical data.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+Before you begin, ensure you have met the following requirements:
 
-### `npm start`
+- You have installed the latest version of Node.js and npm.
+- You have a CoinGecko account and an API key.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installing Dependencies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To install Cryptocurrency Tracker, follow these steps:
 
-### `npm test`
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install the necessary dependencies.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Using Cryptocurrency Tracker
 
-### `npm run build`
+To use Cryptocurrency Tracker, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Replace the `api_key` in the `App` component with your own CoinGecko API key.
+2. Run `npm start` to start the development server.
+3. Open your web browser and navigate to `http://localhost:3000`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Special Offer:** Use my referral code `CGNINJACODERX` to get $500 off the annual premium plan!
+## Contributing to Cryptocurrency Tracker
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To contribute to Cryptocurrency Tracker, follow these steps:
 
-### `npm run eject`
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <project_name>/<location>`
+5. Create the pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project uses the following license: `<license_name>`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acknowledgements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was inspired by the CoinGecko API. For more information on how to use the CoinGecko API, check out this official documentation and blog.
