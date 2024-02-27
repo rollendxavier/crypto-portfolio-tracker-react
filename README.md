@@ -1,6 +1,7 @@
 # Cryptocurrency Tracker
 
 This project is a cryptocurrency tracker built with React JS and the CoinGecko API. It allows you to monitor real-time prices of your favorite cryptocurrencies and visualize their historical data.
+![image](https://github.com/rollendxavier/crypto-portfolio-tracker-react/assets/42246854/1fb4d23d-e272-442e-aee0-14b2a9145485)
 
 ## Prerequisites
 
