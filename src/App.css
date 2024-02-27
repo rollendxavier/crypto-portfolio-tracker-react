@@ -1,38 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: rgb(7, 7, 7);
+}
+
+.news-ticker {
+  font-size: 0.9em; /* Adjust the font size */
+  padding: 5px; /* Adjust the padding */
+  background-color: #f9f9f9;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+  color: #690c0c; /* Make the text really black */
+}
+
+.news-ticker:hover {
+  transform: scale(1.05);
+}
+
+.news-ticker h1 {
+  margin: 0;
+  font-size: 1em; /* Adjust the font size */
+  font-weight: bold;
+}
+
+.news-ticker p {
+  margin: 2;
+  font-size: 0.7em; /* Adjust the font size */
+  text-align: left; /* Align the text to the left */
+  color: rgba(25, 10, 245, 0.932);
+}
+
+h1, h2, h3 {
+  color: rgba(31, 28, 28, 0.842);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #111111;
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+tr:nth-child(even) {
+  background-color: #d4aeae;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.coin-details {
+  margin-top: 20px;
+}
+
+.ReactDatePicker {
+  font-size: 1em;
+}
+
+.ReactDatePicker input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.price-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
